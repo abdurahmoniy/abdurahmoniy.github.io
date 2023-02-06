@@ -1,8 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
 
-* {
-    scroll-behavior: smooth;
+.sidebar {
+    animation: slide-sidebar 0.5s cubic-bezier(.25, .46, .45, .94) both;
+}
+
+@keyframes slider-sidebar {
+    from {
+        transform: translateY(100px);
+    }
+    to{
+        transform: translateY(0);
+    }
+    
 }

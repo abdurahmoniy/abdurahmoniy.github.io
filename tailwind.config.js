@@ -12,7 +12,7 @@ module.exports = {
         mylight: '#EEEEEE'
       },
       fontFamily:{
-        myfont: ['Roboto Condensed', 'sans-serif'],
+        myfont: ['Montserrat', 'sans-serif'],
       },
     },
     screens:{
