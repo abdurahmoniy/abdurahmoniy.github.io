@@ -69,3 +69,16 @@
         #33bbcf 100%
     );
 }
+
+.bgimage {
+    min-height: 100vh;
+    background-image: url(./components/assets/laptop.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 620px){
+    .bgimage{
+        background-position: left 50px 0px;
+    }
+}

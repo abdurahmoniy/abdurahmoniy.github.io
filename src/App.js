@@ -8,7 +8,6 @@ import About from "./components/pages/About";
 import Skills from "./components/pages/Skills";
 import Portfolio from "./components/pages/Portfolio";
 
-
 function App() {
   return (
     <div>
@@ -17,32 +16,35 @@ function App() {
           <Route path='/' element={<Home/>}/>
         </Routes>
       </Router> */}
-      <div className="bg-myblack w-full overflow-hidden">
+      <div className="w-full overflow-hidden font-myfont bg-myblack ">
         <div className={`${styles.padX}`}>
           <div className={`${styles.container}`}>
             <Header />
           </div>
         </div>
-
-
+      </div>
+      <div className="w-full overflow-hidden font-myfont bg-myblack ">
         <div>
           <div className={`${styles.container}`}>
             <Home />
           </div>
         </div>
-
+      </div>
+      <div className="w-full overflow-hidden font-myfont bg-mydark ">
         <div className={`${styles.padX}`}>
           <div className={`${styles.container}`}>
             <About />
           </div>
         </div>
-
+      </div>
+      <div className="w-full overflow-hidden font-myfont bg-myblack">
         <div className={`${styles.padX}`}>
           <div className={`${styles.container}`}>
             <Skills />
           </div>
         </div>
-
+      </div>
+      <div className="w-full overflow-hidden font-myfont bg-mydark ">
         <div className={`${styles.padX}`}>
           <div className={`${styles.container}`}>
             <Portfolio />
