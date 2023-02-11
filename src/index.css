@@ -82,3 +82,17 @@
         background-position: left 50px 0px;
     }
 }
+
+.aibg {
+    background-image: url(./components/assets/aibg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.reactbg{
+    background-image: url(./components/assets/react.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter: blur(5px); */
+}

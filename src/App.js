@@ -30,14 +30,14 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="w-full overflow-hidden font-myfont bg-mydark ">
+      <div className="w-full overflow-hidden font-myfont aibg ">
         <div className={`${styles.padX}`}>
           <div className={`${styles.container}`}>
             <About />
           </div>
         </div>
       </div>
-      <div className="w-full overflow-hidden font-myfont bg-myblack">
+      <div className="w-full overflow-hidden font-myfont reactbg">
         <div className={`${styles.padX}`}>
           <div className={`${styles.container}`}>
             <Skills />

@@ -5,7 +5,7 @@ import geers from '../assets/geers.png'
 export default function Skills() {
   return (
     <div id='skills' className='md:flex'>
-      <div>
+      <div className='textbg'>
         <div className="text-myteal text-[30px] mt-20 font-medium">
           My Skills
         </div>
@@ -20,9 +20,6 @@ export default function Skills() {
         <div className='mb-8'>
           <Progress />
         </div>
-      </div>
-      <div>
-        <img src={geers} alt="" className='hidden md:flex m-20'/>
       </div>
     </div>
   )

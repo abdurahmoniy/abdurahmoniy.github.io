@@ -5,9 +5,9 @@ import { progres } from './consts';
 
 export default function Progress() {
     return (
-        <div className='text-myteal flex border-2 border-myteal py-4 md:w-[800px] rounded-2xl '>
+        <div className='text-myteal flex border-2 border-myteal py-2 md:py-4 md:w-[800px] rounded-2xl '>
             {progres.map((prog, idx)=>(
-                <div className='w-[200px] mx-4'>
+                <div className='w-[200px] mx-1 md:mx-4'>
                     <CircularProgressbar
                         key={idx}
                         // className='text-center'
