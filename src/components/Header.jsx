@@ -25,7 +25,7 @@ export default function Header() {
         ))}
       </ul>
       <div className="hidden md:block">
-      <a className={`py-2 px-4 font-myfont font-medium 
+      <a href='https://contact-pf.netlify.app/' className={`py-2 px-4 font-myfont font-medium 
           text-[16px] bg-blue-gr rounded-[8px] outline-none`}>Contact me</a>
       </div>
 

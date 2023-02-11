@@ -27,10 +27,10 @@ export default function Home() {
           Quam quisquam assumenda suscipit itaque harum id tempore velit tenetur possimus quos.
         </p>
         <div className="my-2 md:hidden block">
-          <button type='button' className={`py-3 px-6 font-myfont font-medium 
+          <a href='https://contact-pf.netlify.app/' type='button' className={`py-3 px-6 font-myfont font-medium 
           text-[18px] bg-blue-gr rounded-[10px] outline-none`}>
             Contact me
-            </button>
+            </a>
         </div>
       </div>
       {/* <div className={`flex-1 flex justify-center items-start md:my-0 my-10 relative md:rounded-full`}>
