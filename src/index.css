@@ -72,7 +72,7 @@
 
 .bgimage {
     min-height: 100vh;
-    background-image: url(./components/assets/laptop.jpeg);
+    background-image: url(./components/assets/laptop.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -84,7 +84,7 @@
 }
 
 .aibg {
-    background-image: url(./components/assets/aibg.jpeg);
+    background-image: url(./components/assets/aibg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -95,4 +95,19 @@
     background-repeat: no-repeat;
     background-size: cover;
     /* filter: blur(5px); */
+}
+
+@media (max-width: 760px){
+    .reactbg , .aibg {
+        background-position: -300px;
+    }
+    .bgimage{
+        background-position: -200px;
+    }
+}
+
+.webbg {
+    background-image: url(./components/assets/web.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }

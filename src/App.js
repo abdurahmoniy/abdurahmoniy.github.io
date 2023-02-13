@@ -44,7 +44,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="w-full overflow-hidden font-myfont bg-mydark ">
+      <div className="w-full overflow-hidden font-myfont webbg">
         <div className={`${styles.padX}`}>
           <div className={`${styles.container}`}>
             <Portfolio />
