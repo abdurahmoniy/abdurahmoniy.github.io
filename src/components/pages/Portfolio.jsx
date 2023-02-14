@@ -12,7 +12,7 @@ export default function Portfolio() {
           <a href={site.url} target="_blank">
             <div className='block border-2 border-myteal p-4 my-4 rounded-lg list-none sm:flex justify-between'>
               <ul>
-                <li className='text-grd justify-start md:my-0 py-2'>
+                <li className='text-myteal justify-start md:my-0 py-2'>
                   {site.title}
                 </li>
               </ul>

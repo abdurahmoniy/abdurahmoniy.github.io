@@ -3,7 +3,7 @@ import robo from '../assets/robo.png'
 
 export default function About() {
   return (
-    <div id='about' className='flex md:flex-row flex-col min-h-[600px]'>
+    <div id='about' className='flex md:flex-row flex-col min-h-[600px] my-8'>
       <div className="flex-1 flex-col py-0 flex justify-center items-start relative">
         <div className="text-myteal text-[30px] font-medium">
           About me

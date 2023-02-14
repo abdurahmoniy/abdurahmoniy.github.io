@@ -11,7 +11,7 @@ export default function Header() {
 
   return (
     <div className="w-full py-1 flex justify-between items-center">
-      <div className={`${styles.header}`}>my_PF</div>
+      <div className={`${styles.header}`}>Azizbek</div>
       <ul className='list-none sm:flex hidden justify-center items-center'>
         {navLink.map((nav, idx) => (
           <li key={nav.id} className={
@@ -25,8 +25,8 @@ export default function Header() {
         ))}
       </ul>
       <div className="hidden md:block">
-      <a href='https://contact-pf.netlify.app/' className={`py-2 px-4 font-myfont font-medium 
-          text-[16px] bg-blue-gr rounded-[8px] outline-none`}>Contact me</a>
+      <a href='https://contact-pf.netlify.app/' className={`py-3 px-4 font-myfont font-medium 
+          text-[16px] bg-myteal text-mylight rounded-[8px] outline-none`}>Contact me</a>
       </div>
 
 

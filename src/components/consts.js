@@ -38,21 +38,39 @@ export const stats = [
 export const portfolio =[
     {
         id: 1,
+        title: 'Calculator',
+        url: 'https://react-calculator-qwasar.vercel.app/',
+        desc: 'Calculator made with ReactJS for Qwasar',
+    },
+    {
+        id: 2,
         title: 'Shopping',
         url: 'https://uzshop.vercel.app',
         desc: 'Kids shopping website',
     },
     {
-        id: 2,
+        id: 3,
         title: 'Light Lamp',
         url: 'https://light-lamp.vercel.app',
         desc: 'Simple Landing Page like Lamp',
     },
     {
-        id: 3,
+        id: 4,
         title: 'Portfolio',
         url: 'https://portfolio-000.vercel.app',
         desc: 'Simple portfolio website made with html css',
+    },
+    {
+        id: 5,
+        title: 'MovieApp',
+        url: 'https://movieappuz.vercel.app/',
+        desc: 'Movie searching Site with API',
+    },
+    {
+        id: 6,
+        title: 'Girl Kate',
+        url: 'https://girl-kate.vercel.app/',
+        desc: 'Simple landing page with good design',
     },
 ]
 

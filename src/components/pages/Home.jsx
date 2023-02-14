@@ -27,8 +27,8 @@ export default function Home() {
           Quam quisquam assumenda suscipit itaque harum id tempore velit tenetur possimus quos.
         </p>
         <div className="my-2 md:hidden block">
-          <a href='https://contact-pf.netlify.app/' type='button' className={`py-3 px-6 font-myfont font-medium 
-          text-[18px] bg-blue-gr rounded-[10px] outline-none`}>
+          <a href='https://contact-pf.netlify.app/' type='button' className={`py-3 px-4 font-myfont font-medium 
+          text-[18px] bg-myteal text-mylight rounded-[10px] outline-none`}>
             Contact me
             </a>
         </div>
