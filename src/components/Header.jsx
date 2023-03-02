@@ -25,7 +25,7 @@ export default function Header() {
         ))}
       </ul>
       <div className="hidden md:block">
-      <a href='https://contact-pf.netlify.app/' className={`py-3 px-4 font-myfont font-medium 
+      <a href='https://www.jotform.com/230601655621448' className={`py-3 px-4 font-myfont font-medium 
           text-[16px] bg-myteal text-mylight rounded-[8px] outline-none`}>Contact me</a>
       </div>
 
