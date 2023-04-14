@@ -72,6 +72,12 @@ export const portfolio =[
         url: 'https://girl-kate.vercel.app/',
         desc: 'Simple landing page with good design',
     },
+    {
+        id: 7,
+        title: 'Filmy',
+        url: 'https://filmy-w.vercel.app/',
+        desc: 'FILMY - Panjara Ortida',
+    },
 ]
 
 export const progres =[
