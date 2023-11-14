@@ -11,18 +11,13 @@ import Portfolio from "./components/pages/Portfolio";
 function App() {
   return (
     <div>
-      {/* <Router>
-        <Routes>
-          <Route path='/' element={<Home/>}/>
-        </Routes>
-      </Router> */}
-      <div className="w-full overflow-hidden font-myfont bg-myblack ">
+      {/* <div className="w-full overflow-hidden font-myfont bg-myblack ">
         <div className={`${styles.padX}`}>
           <div className={`${styles.container}`}>
             <Header />
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="w-full overflow-hidden font-myfont bg-myblack ">
         <div>
           <div className={`${styles.container}`}>

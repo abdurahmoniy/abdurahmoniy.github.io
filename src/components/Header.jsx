@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <div>
       <div className="w-full py-1 flex justify-between items-center">
-        <div className={`${styles.header}`}>Azizbek</div>
+        <div className={`${styles.header}`}>Portfolio</div>
         <ul className="list-none sm:flex hidden justify-center items-center">
           {navLink.map((nav, idx) => (
             <li

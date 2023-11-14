@@ -18,24 +18,20 @@ export default function Home() {
 
         <div className='w-full'>
           <h1 className={`${styles.heading}`}>
-            Full Stack <br /> <span className='text-grd'>Developer</span>
+            Front-end <br /> <span className='text-grd'>Developer</span>
           </h1>
         </div>
 
-        <p className={`${styles.paragraph} mt-5 max-w-[550px]`}>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-          Quam quisquam assumenda suscipit itaque harum id tempore velit tenetur possimus quos.
-        </p>
-        <div className="my-2 md:hidden block">
+        <div className="my-2">
           <a href='https://www.jotform.com/230601655621448' type='button' className={`py-3 px-4 font-myfont font-medium 
           text-[18px] bg-myteal text-mylight rounded-[10px] outline-none`}>
             Contact me
             </a>
         </div>
+        <a href='#about' className={`${styles.paragraph} mt-5 max-w-[550px] text-myteal`}>
+          About me 👇
+        </a>
       </div>
-      {/* <div className={`flex-1 flex justify-center items-start md:my-0 my-10 relative md:rounded-full`}>
-         <img src={robo} alt="robo" className='w-[100%] h-[100%] relative z-10 md:hidden flex' />
-      </div> */}
     </div>
 
 
