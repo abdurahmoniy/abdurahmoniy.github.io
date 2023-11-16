@@ -1,5 +1,6 @@
 import React from "react";
 import robo from "../assets/robo.png";
+import portfolio  from "../assets/resume.pdf";
 
 export default function About() {
   return (
@@ -74,7 +75,7 @@ export default function About() {
           <div className="cv mx-10 md:mx-20 block">
             <div className="text-mylight text-[20px]">Resume'</div>
             <a
-              href="../assets/rezume.pdf"
+              href={portfolio}
               type="button"
               download
               className={`py-2 px-4 my-2 font-myfont font-medium 
